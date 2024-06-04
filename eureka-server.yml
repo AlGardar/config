@@ -3,7 +3,7 @@ server:
 eureka:
   instance:
     hostname:localhost
-  ckient:
+  client:
     registerWithEureka: false
     fetchRegistry: false
     serviceURL:
