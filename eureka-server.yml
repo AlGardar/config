@@ -11,3 +11,7 @@ eureka:
         http://${eureka.instance.hostname}:${server.port}/eureka/
   server:
     waitTimeInMsWhenSyncEmpty: 5
+
+logging:
+  level:
+    web: DEBUG
